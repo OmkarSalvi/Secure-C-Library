@@ -1,1 +1,2 @@
 #Secure C Library to prevent Format String Vulnerability
+Provided a security layer that prevents format string vulnerabilities by hooking the “printf” family of functions to filter dangerous format strings. When developer includes our library in the code, the application will be safe from format string vulnerabilities.
